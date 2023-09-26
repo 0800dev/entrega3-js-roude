@@ -49,9 +49,9 @@ let remerasOversizeEstampadas = [
         precio: 7,
         talles: ["S", "M", "L", "XL", "XXL"],
         imagen: [
-            "../assets/images/tshirts/estampadas/voodotocabacknegra",
-            "../assets/images/tshirts/estampadas/voodotocanegraback",
-            "../assets/images/tshirts/estampadas/voodotocafrenteblanca"
+            "../assets/images/tshirts/estampadas/voodotocabacknegra.webp",
+            "../assets/images/tshirts/estampadas/voodotocanegraback.webp",
+            "../assets/images/tshirts/estampadas/voodotocafrenteblanca.webp"
         ],
         stock:true 
     }
@@ -81,7 +81,7 @@ let remerasClasicasLisas = [
     {  id: 6,
         nombre: "Clasica lisa",
         tela: "Algodon",
-        colres: ["Blanco", "Negro","Azul"],
+        colores: ["Blanco", "Negro","Azul","Gris"],
         precio: 7,
         talles: ["S", "M", "L", "XL", "XXL"],
         imagen: [
@@ -172,7 +172,6 @@ let jeans = [
         stock:true
     }
 ];
-
 let hoodies = [
     {
         id:12,
@@ -231,9 +230,7 @@ let hoodies = [
         ],
         stock:true
     }
-
 ];
-
 let accesorios = [
     {
         id:16,
@@ -273,8 +270,7 @@ let accesorios = [
     }
 ];
 
-
-let productos = [
+const productos = [
     
     remerasOversizeEstampadas,
     remerasOverLisas,
@@ -282,5 +278,4 @@ let productos = [
     jeans,
     hoodies,
     accesorios
-
 ];
