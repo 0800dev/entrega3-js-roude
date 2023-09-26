@@ -24,14 +24,3 @@ function vaciarCarrito (){
         localStorage.clear();
     })
 };
-
-// function agregarAlCarro(){
-//     let productoparaAgregar = {
-//         ...productos[id],
-//         cantidad : 1
-//     }
-//     if (carrito.length === 0) {carrito.push(productoparaAgregar)}
-//     else if (carrito.find((el)=> el.cantidad === 1)){
-//         cantidad += 1
-//     }
-// };
